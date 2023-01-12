@@ -10,7 +10,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link href="assets/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/857255a119.js" crossorigin="anonymous"></script>
 
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
@@ -25,31 +25,31 @@
         <ul>
           <li class="list active">
             <a>
-              <span class="icon"><i class="bx bx-home"></i></span>
+              <span class="icon"><i class="fa-solid fa-house"></i></span>
               <span class="text">Home</span>
             </a>
           </li>
           <li class="list">
             <a>
-              <span class="icon"><i class="bx bx-home"></i></span>
+              <span class="icon"><i class="fa-solid fa-users"></i></span>
               <span class="text">Why us</span>
             </a>
           </li>
           <li class="list">
             <a>
-              <span class="icon"><i class="bx bx-home"></i></span>
+              <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
               <span class="text">Services</span>
             </a>
           </li>
           <li class="list">
             <a>
-              <span class="icon"><i class="bx bx-home"></i></span>
+              <span class="icon"><i class="fa-solid fa-list-check"></i></span>
               <span class="text">Projects</span>
             </a>
           </li>
           <li class="list">
             <a>
-              <span class="icon"><i class="bx bx-home"></i></span>
+              <span class="icon"><i class="fa-regular fa-address-book"></i></span>
               <span class="text">Contact</span>
             </a>
           </li>
@@ -210,6 +210,15 @@
     </div>
 
     <!-- Scripts -->
+
+    <script>
+      const list = document.querySelectorAll('.list');
+      function activeLink() {
+        list.forEach(item => item.classList.remove('active'));
+        this.classList.add('active');
+      }
+      list.forEach(item => item.addEventListener('click', activeLink));
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
