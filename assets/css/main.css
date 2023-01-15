@@ -3928,21 +3928,17 @@ body.is-preload #banner p {
   box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
 }
 
-.wrapper.spotlight.style3 {
-  background-color: #3f4e85;
-}
-
 .wrapper.spotlight.style3:before,
 .wrapper.spotlight.style3:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white' /%3E%3C/svg%3E");
 }
 
 .wrapper.spotlight.style3:before {
-  box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+  box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
 }
 
 .wrapper.spotlight.style3:after {
-  box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+  box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
 }
 
 .wrapper.spotlight.style4 {
@@ -4282,7 +4278,6 @@ body.is-preload #banner p {
   margin: 0.291rem 0 0 0;
   text-align: center;
 }
-
 /* -------------------------------
 Services
 ---------------------------------*/
@@ -4308,16 +4303,6 @@ Services
   background-color: #ffffff;
 }
 
-.services {
-  color: #000000;
-}
-
-.services .major {
-  padding-bottom: 1em;
-  border-bottom: solid 2px rgba(0, 0, 0, 0.125);
-  color: #00000083;
-}
-
 .services .items_wrapper {
   display: flex;
   margin-top: 40px;
@@ -4341,4 +4326,26 @@ Services
 .animate_up:hover {
   transform: translateY(-10px);
   transition: 0.5s;
+}
+
+/* Testimonial. */
+
+.wrapper.spotlight.style3 {
+  background-color: #ffffff;
+}
+
+/* Common */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg_white {
+  color: #000000 !important;
+}
+
+.bg_white .major {
+  padding-bottom: 1em;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.125);
+  color: #00000083;
 }
