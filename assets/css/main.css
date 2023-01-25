@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic');
+
 @import url('./nav.css');
+@import url('./carousel.css');
+@import url('./typewriting.css');
+
 @import url('./responsive.css');
 
 /*
@@ -4334,6 +4338,39 @@ Services
   background-color: #ffffff;
 }
 
+/* Projects page */
+/* 
+.projects:before,
+.projects:after {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: '';
+  display: block;
+  height: 6e.5m !important;
+  position: absolute;
+  width: 100%;
+} */
+
+.projects {
+  background-color: #2e3141;
+  margin: 1em 0 !important;
+  position: relative;
+}
+
+/* ----------------------
+Project Details
+-------------------------*/
+.project_details .container {
+  display: flex;
+}
+.project_details .container .content .image {
+  float: left;
+  margin: 0px 15px 0px 0px;
+  border-radius: 5px;
+  max-width: 35vw;
+  max-height: 35vw;
+}
+
 /* Common */
 
 html {
@@ -4348,4 +4385,14 @@ html {
   padding-bottom: 1em;
   border-bottom: solid 2px rgba(0, 0, 0, 0.125);
   color: #00000083;
+}
+
+.next_icon {
+  /* display: none !important; */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.prev_icon {
+  /* display: none !important; */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }

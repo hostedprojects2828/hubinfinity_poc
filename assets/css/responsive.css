@@ -43,6 +43,16 @@
     margin-left: 0px !important;
     margin-bottom: 20px;
   }
+
+  /* Project Details */
+  .project_details .container .content .image {
+    float: none !important;
+    max-width: 100% !important;
+    max-height: 65vh !important;
+  }
+  .project_details .container .content p {
+    font-size: 0.8991rem;
+  }
 }
 
 /* iPads (portrait and landscape)  */
