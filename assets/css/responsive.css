@@ -1,5 +1,51 @@
 /* Smartphones (portrait) */
 @media only screen and (max-width: 320px) {
+  /* Nav */
+
+  .navigation {
+    width: 16.4rem;
+    height: 4.5rem;
+    left: 10%;
+  }
+
+  .navigation ul li {
+    width: 45px;
+  }
+
+  .navigation ul li a .icon {
+    line-height: 75px;
+    font-size: 1.4rem;
+  }
+
+  .navigation ul li a .text {
+    font-size: 0.85em;
+  }
+
+  .indicator {
+    top: -30%;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+  }
+
+  .navigation ul li:nth-child(1).active ~ .indicator {
+    transform: translateX(calc(45px * 0));
+  }
+
+  .navigation ul li:nth-child(2).active ~ .indicator {
+    transform: translateX(calc(45px * 1));
+  }
+
+  .navigation ul li:nth-child(3).active ~ .indicator {
+    transform: translateX(calc(45px * 2));
+  }
+  .navigation ul li:nth-child(4).active ~ .indicator {
+    transform: translateX(calc(45px * 3));
+  }
+  .navigation ul li:nth-child(5).active ~ .indicator {
+    transform: translateX(calc(45px * 4));
+  }
+
   /* Styles */
   .inner_text {
     flex-direction: column-reverse;

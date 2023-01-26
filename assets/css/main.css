@@ -119,6 +119,41 @@ body {
   line-height: 1;
 }
 
+.wrapper_3d {
+  perspective: 40em;
+}
+
+.animate_3d {
+  /* position: absolute; */
+  min-width: 40vmin;
+  height: 40vmin;
+  z-index: 1;
+}
+
+.animate_3d {
+  /* top: 50%;
+  left: 50%; */
+  /* margin: -20vmin; */
+  transform-style: preserve-3d;
+  animation: rot 4s ease-in-out infinite;
+}
+
+@keyframes rot {
+  25% {
+    transform: rotateY(-0.1turn);
+  }
+  50% {
+    transform: rotateY(-0.1turn);
+  }
+  100% {
+    /* transform: rotateY(1turn); */
+  }
+}
+.animate_3d {
+  /* backface-visibility: hidden; */
+  /* background: #ee8c25; */
+}
+
 ol,
 ul {
   list-style: none;
@@ -4299,7 +4334,7 @@ Services
   height: 100%;
   width: 100%;
   border-radius: 2rem;
-  background-color: rgb(98, 176, 221);
+  /* background-color: rgb(98, 176, 221); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -4326,9 +4361,20 @@ Services
   transform: translateY(-10px);
   transition: 0.5s;
 }
-
+.animate_up {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
 .animate_up:hover {
-  transform: translateY(-10px);
+  transform: rotateY(30deg);
+  /* transform: rotateX(30deg); */
+
+  /* transform: translateY(10px); */
+  /* transform: rotate(45deg); */
+
+  /* -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg); */
   transition: 0.5s;
 }
 
@@ -4370,6 +4416,8 @@ Project Details
   max-width: 35vw;
   max-height: 35vw;
 }
+
+/* Animation */
 
 /* Common */
 
