@@ -3592,7 +3592,7 @@ body.is-menu-visible #menu .inner {
   #banner {
     padding: 7em 0 8.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(65, 55, 46, 0.8), rgba(153, 137, 47, 0.8)), url('../../images/banner_bg.jpg');
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url('../../images/banner_bg.jpg');
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -4283,7 +4283,7 @@ body.is-preload #banner p {
 .style1 .inner .content .inner_text .inner_image {
   height: 50vh;
   width: 80vw;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .style1 .inner .content .inner_text .inner_image img {
