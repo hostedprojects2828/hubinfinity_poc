@@ -110,6 +110,20 @@
   .project_details .container .content p {
     font-size: 0.8991rem;
   }
+
+  /* ------------------
+Services Ddetails.
+--------------------- */
+  .service_details .container {
+    grid-template-columns: auto !important;
+    text-align: center !important;
+  }
+
+  .service_details .item {
+    padding: 0px !important;
+    border-right: none !important;
+    margin-right: 0px;
+  }
 }
 
 /* iPads (portrait and landscape)  */
