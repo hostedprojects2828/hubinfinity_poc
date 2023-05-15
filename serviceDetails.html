@@ -53,47 +53,14 @@
       </div>
       <section id="wrapper ">
         <!-- Four -->
-        <section id="four" class="projects service_details wrapper style4">
+        <section id="four" class="service_details wrapper style4">
+          <div class="bg_pattern"></div>
+
           <div class="inner">
             <h2 class="major">Accounting & Bookkeeping</h2>
             <div class="container_wrapper">
               <div class="container">
-                <!-- <div class="item">
-                  <h5>Financial Record-Keeping</h5>
-                  <p>
-                    Our accounting and bookkeeping company provides professional financial record-keeping services to ensure that your financial data
-                    is accurate, up-to-date, and organized
-                  </p>
-                </div>
-                <div class="item">
-                  <h5>Financial Statment repration</h5>
-                  <p>
-                    We prepare comprehensive financial statements, including balance sheets, income statements, and cash flow statements, to help you
-                    make informed decisions and monitor the financial health of your business.
-                  </p>
-                </div>
-                <div class="item">
-                  <h5>Financial Statment repration</h5>
-                  <p>
-                    Our company manages your accounts payable and receivable, ensuring that you pay your bills on time and receive timely payments
-                  </p>
-                </div>
-                <div class="item">
-                  <h5>Financial Statment repration</h5>
-                  <p>
-                    We prepare comprehensive financial statements, including balance sheets, income statements, and cash flow statements, to help you
-                    make informed decisions and monitor the financial health of your business.
-                  </p>
-                </div>
-                <div class="item">
-                  <h5>Financial Statment repration</h5>
-                  <p>
-                    Our company manages your accounts payable and receivable, ensuring that you pay your bills on time and receive timely payments
-                  </p>
-                </div> -->
-                <!-- <div class="image">
-                    <img src="./images/services_png.png" alt="" width="100%" height="100%" />
-                  </div> -->
+                <!-- Dynamic updating contents. -->
               </div>
             </div>
           </div>
@@ -114,9 +81,6 @@
           </div>
         </section>
       </section>
-      <div id="stage" style="background-color: #cc0">STAGE</div>
-
-      <input type="button" id="driver" value="Load Data" />
     </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -147,10 +111,6 @@
         var vars = query.split('=');
         var ID = vars[1];
         let services = [];
-
-        console.log('query--', query);
-        console.log('vars--', vars);
-        console.log('ID--', ID);
         // $('#driver').click(function (event) {
         $.getJSON('services.json', function (data) {
           console.log('jd-----', data);

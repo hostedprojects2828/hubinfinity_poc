@@ -4330,8 +4330,8 @@ Services
 
 .services .definitions .image_wrapper {
   height: 50vh;
-  width: 55vw;
-  margin-left: 2rem;
+  width: 60vw;
+  margin-right: 2rem;
 }
 
 .image_wrapper img {
@@ -4342,9 +4342,6 @@ Services
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.wrapper.spotlight.style2 {
-  /* background-color: #ffffff; */
-}
 
 .services .items_wrapper {
   display: flex;
@@ -4411,6 +4408,11 @@ Services
 
 /* why_us */
 
+#one {
+  background-image: url('../../images/pattern-01-nologo-l.PNG');
+  /* filter: blur(4px); */
+}
+
 .why_us .inner_text {
   display: flex;
 }
@@ -4439,9 +4441,19 @@ Project Details
 /* ------------------
 Services Ddetails.
 --------------------- */
+
+#two {
+  background-image: url('../../images/pattern-01-nologo-r.PNG');
+  /* filter: blur(4px); */
+}
+
+.service_details {
+  background-image: url('../../images/pattern-01.PNG');
+  /* filter: blur(4px); */
+}
 .service_details .container {
   display: grid;
-
+  /* color: #000000; */
   /*Using the full width/height of the designated box elements, use fr as in example below */
   /*Delete the two lines above and add more columns/rows by specifying one more for each below */
   grid-template-columns: auto auto auto;
