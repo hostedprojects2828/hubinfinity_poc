@@ -84,6 +84,20 @@
   .why_us .inner_image {
     margin-bottom: 40px;
   }
+
+  .pattern_mob {
+    display: block !important;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .up {
+    top: -140px;
+  }
+
+  .down {
+    bottom: -60px;
+  }
   /* Why us end */
   .services .definitions {
     flex-direction: column-reverse;

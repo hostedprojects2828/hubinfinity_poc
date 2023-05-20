@@ -4420,8 +4420,7 @@ Services
   /* filter: blur(4px); */
 }
 .pattern_mob {
-  position: absolute;
-  top: -140px;
+  display: none;
 }
 
 .why_us .inner_text {
