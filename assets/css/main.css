@@ -4414,8 +4414,14 @@ Services
 /* why_us */
 
 #one {
-  background-image: url('../../images/pattern-01-nologo-l.PNG');
+  /* background-image: url('../../images/pattern-01-nologo-l.PNG'); */
+  /* background-image: url('../../images/pattern-mob-01-nologo-l.PNG'); */
+
   /* filter: blur(4px); */
+}
+.pattern_mob {
+  position: absolute;
+  top: -140px;
 }
 
 .why_us .inner_text {
