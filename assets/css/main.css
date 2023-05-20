@@ -4419,9 +4419,6 @@ Services
 
   /* filter: blur(4px); */
 }
-.pattern_mob {
-  display: none;
-}
 
 .why_us .inner_text {
   display: flex;
@@ -4450,6 +4447,10 @@ Project Details
 /* ------------------
 Services Ddetails.
 --------------------- */
+
+.pattern_mob {
+  display: none;
+}
 
 #two {
   background-image: url('../../images/pattern-01-nologo-r.PNG');

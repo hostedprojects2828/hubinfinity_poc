@@ -104,11 +104,11 @@
   }
 
   .up {
-    top: -40px;
+    top: -10px;
   }
 
   .down {
-    bottom: -60px;
+    bottom: 0px;
   }
   /* Why us end */
   .services .definitions {
@@ -145,6 +145,12 @@
   /* ------------------
 Services Ddetails.
 --------------------- */
+
+  .service_details {
+    background-image: none !important;
+    background-repeat: no-repeat;
+    /* filter: blur(4px); */
+  }
   .service_details .container {
     grid-template-columns: auto !important;
     text-align: center !important;
