@@ -80,6 +80,13 @@
     font-size: 0.867rem;
   }
 
+  /* banner start*/
+  #one {
+    background-image: none !important;
+    /* background-image: url(''); */
+  }
+  /* banner end*/
+
   /* why us start*/
   .why_us .inner_image {
     margin-bottom: 40px;
@@ -89,10 +96,15 @@
     display: block !important;
     position: absolute;
     z-index: 1;
+    width: 100%;
+  }
+
+  .pattern_mob img {
+    width: 100%;
   }
 
   .up {
-    top: -140px;
+    top: -40px;
   }
 
   .down {
