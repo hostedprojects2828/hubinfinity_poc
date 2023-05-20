@@ -311,7 +311,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  /* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
   color: #ffffff;
   text-decoration: none;
 }
@@ -4342,7 +4342,6 @@ Services
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .services .items_wrapper {
   display: flex;
   margin-top: 40px;
@@ -4350,14 +4349,20 @@ Services
 
 .services .items_wrapper .item {
   margin-left: 30px;
-  padding: 15px;
+  padding-right: 15px;
   /* border-radius: 15px; */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   border-bottom: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
 }
+
+.services .items_wrapper .major {
+  font-size: 0.8rem !important;
+}
+
 .services .items_wrapper .item p {
   margin-bottom: 10px;
+  color: #d7d3d3 !important;
 }
 
 .services .item:hover {
@@ -4418,7 +4423,6 @@ Services
 }
 .why_us .letter {
   width: 100%;
-
   padding-right: 10px;
 }
 
@@ -4449,6 +4453,7 @@ Services Ddetails.
 
 .service_details {
   background-image: url('../../images/pattern-01.PNG');
+  background-repeat: no-repeat;
   /* filter: blur(4px); */
 }
 .service_details .container {

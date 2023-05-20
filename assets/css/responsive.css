@@ -80,6 +80,15 @@
     font-size: 0.867rem;
   }
 
+  /* why us start*/
+
+  .why_us .inner_text {
+  }
+
+  .why_us .inner_image {
+    margin-bottom: 40px;
+  }
+  /* Why us end */
   .services .definitions {
     flex-direction: column-reverse;
     align-items: center;
