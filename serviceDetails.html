@@ -58,7 +58,7 @@
             <img src="./images/pattern-services-mob-u.PNG" alt="no why us" />
           </div>
           <div class="inner">
-            <h2 class="major">Accounting & Bookkeeping</h2>
+            <h2 class="major service_heading"></h2>
             <div class="container_wrapper">
               <div class="container">
                 <!-- Dynamic updating contents. -->
@@ -115,29 +115,34 @@
         var vars = query.split('=');
         var ID = vars[1];
         let services = [];
+        let heading = '';
         // $('#driver').click(function (event) {
         $.getJSON('services.json', function (data) {
-          console.log('jd-----', data);
+          console.log('ID-----', ID);
           switch (ID) {
-            case 'account':
+            case 'accounting':
               {
+                heading = 'ACCOUNTING & BOOKKEEPING';
                 services = data?.accounts ?? [];
               }
               break;
             case 'eventManagment':
               {
+                heading = 'EVENT MANAGEMENT CONSULTANCY';
                 services = data?.eventManagment ?? [];
               }
               break;
             case 'projectManagment':
               {
+                heading = 'PROJECT MANAGEMENT CONSULTANCY';
                 services = data?.projectManagment ?? [];
               }
               break;
+
             default:
               services = [];
           }
-
+          $('.service_heading').html(heading);
           // check for which service.
           services.forEach(item => {
             $('.container').append(`<div class="item">
