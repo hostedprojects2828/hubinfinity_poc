@@ -3126,6 +3126,17 @@ button:disabled,
     padding: 10;
   }
 }
+/* Why us Start */
+.letter-justify {
+  /* text-indent: 50px; */
+  text-align: justify;
+  letter-spacing: -0.6px;
+}
+.why_us .points {
+  margin-left: 20px;
+}
+
+/* Why us end*/
 
 /* Features */
 
@@ -4481,6 +4492,15 @@ Services Ddetails.
   border-right: 1px solid #ffffff;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.service_exp {
+  min-height: 22vh;
+}
+
+.services .item .major {
+  min-height: 10vh;
+  /* font-size: 1rem !important; */
 }
 
 /* Animation */
