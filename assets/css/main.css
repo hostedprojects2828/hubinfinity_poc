@@ -2319,6 +2319,7 @@ label {
 }
 
 input[type='text'],
+input[type='number'],
 input[type='password'],
 input[type='email'],
 input[type='tel'],
@@ -2382,6 +2383,7 @@ select::-ms-expand {
 }
 
 input[type='text'],
+input[type='number'],
 input[type='password'],
 input[type='email'],
 select {

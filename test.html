@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/test.css" />
+    <title>Send Mail</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script type="text/javascript">
+      function sendEmail() {
+        Email.send({
+          Host: 'smtp.gmail.com',
+          Username: 'malayilvimal@gmail.com',
+          Password: 'Illbesuccess28#',
+          To: 'vimalvyshagam@email_address.com',
+          From: 'malayilvimal@gmail.com',
+          Subject: 'Sending Email using javascript',
+          Body: 'Well that was easy!!',
+        }).then(function (message) {
+          alert('mail sent successfully');
+        });
+      }
+    </script>
   </head>
+
   <body>
-    <div class="animate_3d"></div>
+    <form method="post">
+      <input type="button" value="Send Email" onclick="sendEmail()" />
+    </form>
   </body>
 </html>
