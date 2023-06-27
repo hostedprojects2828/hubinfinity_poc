@@ -69,8 +69,38 @@
     width: 85vw !important;
   }
 
+  .founders .items_wrapper .item {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+
+  .founders .items_wrapper .item .name {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    text-align: right;
+    /* background-color: blue; */
+  }
+  .name h4 {
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 0.09rem;
+    line-height: 0;
+    /* background-color: blue; */
+  }
+
+  .name h5 {
+    font-size: 1rem;
+
+    color: rgb(78, 77, 77);
+    letter-spacing: 0.09rem;
+  }
+
   .founders .item .circle_image {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     min-height: 15vh !important;
     min-width: 15vh !important;
   }

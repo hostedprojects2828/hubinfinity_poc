@@ -4319,21 +4319,59 @@ body.is-preload #banner p {
 }
 
 .founders .items_wrapper .item {
+  background-color: rgb(255, 255, 255);
+
   margin-left: 20px;
   margin-bottom: 10px;
+  position: relative;
 }
 .founders .item .circle_image {
-  background-color: rgb(255, 255, 255);
   content: '';
-  border-radius: 50%;
-  min-height: 32vh;
-  min-width: 32vh;
+  /* border-radius: 50%; */
+  min-height: 45vh;
+  min-width: 15vw;
 }
 
-.founders .items_wrapper .item p {
-  margin: 0.291rem 0 0 0;
-  text-align: center;
+.founders .item .circle_image img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
+
+.founders .item .circle_image img:hover {
+  -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+}
+
+.founders .items_wrapper .item .name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  background-color: rgb(255, 255, 255);
+  min-width: 10vw;
+  min-height: 15vh;
+}
+
+.name h4 {
+  font-size: 1rem;
+  color: black;
+  letter-spacing: 0.09rem;
+  line-height: 0;
+  margin-top: 10px;
+  /* background-color: blue; */
+}
+
+.name h5 {
+  font-size: 1rem;
+  color: rgb(78, 77, 77);
+  letter-spacing: 0.09rem;
+}
+
 /* -------------------------------
 Services
 ---------------------------------*/
