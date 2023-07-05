@@ -75,6 +75,7 @@
     display: flex;
     width: 100%;
     position: relative;
+    background-color: rgba(255, 255, 255, 0.259) !important;
   }
 
   .founders .items_wrapper .item .name {
@@ -82,7 +83,8 @@
     bottom: 0;
     right: 0px;
     text-align: right;
-    /* background-color: blue; */
+    background-color: rgba(255, 255, 255, 0.029) !important;
+    /* width: 100%; */
   }
   .name h4 {
     font-size: 1rem;
@@ -94,6 +96,7 @@
 
   .name h5 {
     font-size: 1rem;
+    /* display: none; */
 
     color: rgb(78, 77, 77);
     letter-spacing: 0.09rem;

@@ -4319,7 +4319,8 @@ body.is-preload #banner p {
 }
 
 .founders .items_wrapper .item {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 6%;
 
   margin-left: 20px;
   margin-bottom: 10px;
@@ -4327,9 +4328,9 @@ body.is-preload #banner p {
 }
 .founders .item .circle_image {
   content: '';
-  /* border-radius: 50%; */
-  min-height: 45vh;
-  min-width: 15vw;
+  border-radius: 50%;
+  /* min-height: 45vh;
+  min-width: 10vw; */
 }
 
 .founders .item .circle_image img {
@@ -4338,27 +4339,29 @@ body.is-preload #banner p {
   margin-top: auto;
   margin-bottom: auto;
   display: block;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  border-radius: 6%;
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-
+/* 
 .founders .item .circle_image img:hover {
-  -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(20%); 
   filter: grayscale(20%);
-}
+} */
 
 .founders .items_wrapper .item .name {
   position: absolute;
   bottom: 0;
   right: 0;
   text-align: right;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.674);
+  border-top-left-radius: 6%;
   min-width: 10vw;
-  min-height: 15vh;
+  min-height: 10vh;
 }
 
 .name h4 {
-  font-size: 1rem;
+  font-size: 0.789rem;
   color: black;
   letter-spacing: 0.09rem;
   line-height: 0;
@@ -4367,7 +4370,7 @@ body.is-preload #banner p {
 }
 
 .name h5 {
-  font-size: 1rem;
+  font-size: 0.391rem;
   color: rgb(78, 77, 77);
   letter-spacing: 0.09rem;
 }
